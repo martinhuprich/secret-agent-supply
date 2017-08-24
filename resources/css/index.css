@@ -1,1 +1,85 @@
-hello css
+html {
+  font-size: 18px;
+  width: 1600px;
+  font-family: Helvetica;
+}
+/* for better visibility added borders to all divs */
+div {
+  border: 1px solid black;
+}
+/* main container including all content */
+.site-container {
+  margin: 0 auto;background-color: black;
+}
+/*css for the header */
+
+header {
+  background-color: black;
+  overflow: visible;
+}
+
+.logo {
+  color: white;
+  text-align: left;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  }
+
+/* logo image in header */
+.logo img {
+  margin: auto 1rem auto 0.5rem;
+  height: 1.5rem;
+}
+
+/* text next to the logo */
+.logo-text {
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+  font-size: 1rem;
+}
+
+/* backgroundimage main banner */
+
+.container {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.main-banner-position {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  height: auto;
+}
+
+/* container in main banner */
+
+.main-banner-text {
+  background-color: black;
+  width: 23rem;
+  height: auto;
+  color: white;
+  font-weight: bold;
+  margin-top: 9rem;
+}
+
+.main-banner-text h2 {
+  font-size: 2rem;
+  margin: 0.25rem auto 3rem 3rem;
+}
+
+.main-banner-text h4 {
+  font-size: 1rem;
+  margin: 2rem auto auto 3rem;
+
+}
