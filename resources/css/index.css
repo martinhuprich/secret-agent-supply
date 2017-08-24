@@ -2,6 +2,7 @@ html {
   font-size: 18px;
   width: 1600px;
   font-family: Helvetica;
+  color: white;
 }
 /* for better visibility added borders to all divs */
 div {
@@ -19,7 +20,6 @@ header {
 }
 
 .logo {
-  color: white;
   text-align: left;
   border: 1px solid green;
   display: flex;
@@ -54,6 +54,7 @@ header {
   justify-content: center;
 }
 
+/*  container to make positioning of main banner box easier */
 .main-banner-position {
   width: 60%;
   margin: 0 auto;
@@ -62,24 +63,39 @@ header {
   height: auto;
 }
 
-/* container in main banner */
 
+/* container in main banner */
 .main-banner-text {
   background-color: black;
   width: 23rem;
   height: auto;
-  color: white;
   font-weight: bold;
   margin-top: 9rem;
 }
-
+/* styling for text in main container box */
 .main-banner-text h2 {
   font-size: 2rem;
   margin: 0.25rem auto 3rem 3rem;
 }
-
+/*  styling for headline in main container box */
 .main-banner-text h4 {
   font-size: 1rem;
   margin: 2rem auto auto 3rem;
 
+}
+
+nav {
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav span {
+  margin: 0.75rem 0;
 }
